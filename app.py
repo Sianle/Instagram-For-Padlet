@@ -10,8 +10,16 @@ def home():
         <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>Instagram for Padlet</title>
+            <!-- 확대/축소 막기 -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <title>Instagram</title>
             <style>
+            :root{
+            --bg: #000000;
+            --btn: #0064E0;
+            --muted: rgba(255,255,255,0.58);
+            --input-border: rgba(255,255,255,0.2);
+    }
                 body {
                     display: flex;
                     justify-content: center;
@@ -19,11 +27,11 @@ def home():
                     height: 100vh;
                     margin: 0;
                     font-family: Arial, sans-serif;
-                    background: #f0f0f0;
+                    background: #000000;
                 }
                 h1 {
                     font-size: 3em;
-                    color: #333;
+                    color: #ffffff;
                 }
             </style>
         </head>
